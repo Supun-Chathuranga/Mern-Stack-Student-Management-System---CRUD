@@ -12,7 +12,7 @@ app.use(cors());
 app.use("/",studentRoutes);
 
 
-const mongoDb_URL="mongodb+srv://harshan:harshan1234@cluster0.qnxtqlj.mongodb.net/studentsDB?retryWrites=true&w=majority";
+const mongoDb_URL="mongodb+srv://Supun:supun1234@cluster0.hmr74z6.mongodb.net/Project0?retryWrites=true&w=majority";
 
 //Connect to mongoDB database
 mongoose.connect(mongoDb_URL)
